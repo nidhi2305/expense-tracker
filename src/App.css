@@ -1,0 +1,39 @@
+/* Offset for fixed navbar */
+.main-container {
+  margin-top: 80px; 
+  padding-top: 80px;
+}
+
+/* For small screens, increase spacing if needed */
+@media (max-width: 576px) {
+  .main-container {
+    margin-top: 100px;
+    padding-top: 100px;
+  }
+}
+
+
+/* Custom styles for navbar links */
+.nav-link-custom:hover {
+  color: #fff !important;
+  background-color: #8e9bb4;
+  border-radius: 5px;
+}
+
+
+/* Intro Page Styles */
+.intro-section {
+  background-color: white;
+  color: #333;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  animation: fadeIn 1s ease;
+  margin-top: 10px;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
